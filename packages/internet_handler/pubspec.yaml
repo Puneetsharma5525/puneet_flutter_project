@@ -1,0 +1,29 @@
+name: internet_handler
+description: internet handler package.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.1+1
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  connectivity_plus: ^6.0.3
+  equatable: ^2.0.5
+  cached_network_image:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.5
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
